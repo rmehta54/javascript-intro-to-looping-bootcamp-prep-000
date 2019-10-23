@@ -7,5 +7,9 @@ function forLoop(array1)
       array1.push(`I am ${i} strange loop.`)
     }
     else
+    {
+     array1.push(`I am ${i} strange loops.`)
+    }
   }
+  return array1
 }
